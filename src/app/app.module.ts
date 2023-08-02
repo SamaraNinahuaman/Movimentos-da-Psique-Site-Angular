@@ -4,27 +4,34 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { SalaAtendimentoComponent } from './pages/sala-atendimento/sala-atendimento.component';
-import { ContatoComponent } from './pages/contato/contato.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { CardBlogComponent } from './card-blog/card-blog.component';
-import { LogoWhiteFullComponent } from './assets/svgs/logo-white-full/logo-white-full.component';
+import { CardBlogComponent } from './components/card-blog/card-blog.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { LogoTextWhiteComponent } from './components/logo-text-white/logo-text-white.component';
+import { LogoFullWhiteComponent } from './components/logo-full-white/logo-full-white.component';
+import { ModalidadesComponent } from './pages/modalidades/modalidades.component';
+import { PsicoterapiaComponent } from './pages/psicoterapia/psicoterapia.component';
+import { SomaticExperiencingComponent } from './pages/somatic-experiencing/somatic-experiencing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent,
     BlogComponent,
     SalaAtendimentoComponent,
-    ContatoComponent,
     HeaderComponent,
     FooterComponent,
     CardBlogComponent,
-    LogoWhiteFullComponent
+    MenuComponent,
+    LogoTextWhiteComponent,
+    LogoFullWhiteComponent,
+    ModalidadesComponent,
+    PsicoterapiaComponent,
+    SomaticExperiencingComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,38 @@
+.header {
+  background-image: url("https://movimentosdapsique.files.wordpress.com/2023/07/gota-caindo-na-agua-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  color: white;
+}
+
+h2 {
+  font-size: 3rem;
+  padding-top: 100px;
+  color: white; /* Define a cor do texto como branco */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Goudy Od Style", sans-serif;
+  font-size: 1em;
+  line-height: 2.6em;
+}
+
+@media (max-width: 1090px) {
+  h2 {
+    font-size: 1.6rem;
+    padding-top: 70px;
+}
+
+.header {
+  height: 45vh;
+}
+
+}

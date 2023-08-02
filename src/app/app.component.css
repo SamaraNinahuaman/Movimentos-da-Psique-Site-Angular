@@ -1,0 +1,31 @@
+:root {
+  --primary-color: rgb(157, 60, 114);
+  --secondary-color: rgb(255, 208, 0);
+  --primary-color-soft:rgb(200, 92, 142);
+  --submmit-color: rgb(21, 206, 89);
+  --darker-submmit-color: rgb(10, 99, 43);
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--primary-color);
+  font-size: 1em;
+  line-height: 2.6em;
+}
+
+h1, h2, h3{
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  text-align: justify;
+  padding: 0 30px 0;
+  font-size: 1.5em;
+}

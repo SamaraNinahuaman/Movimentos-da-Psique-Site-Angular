@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Goudy Old Style", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+@font-face {
+  font-family: "Goudy Old Style"; /* Defina o nome da fonte que será utilizada */
+  src: url("../../assets/fonts/Goudy_Old_Style.ttf"); /* Caminho para o arquivo da fonte */
+}
+
