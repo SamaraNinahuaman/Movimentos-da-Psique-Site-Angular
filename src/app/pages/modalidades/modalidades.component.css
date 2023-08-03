@@ -1,0 +1,82 @@
+body {
+  font-size: 1em;
+  line-height: 2.6em;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.titulos {
+  font-size: 2em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-container {
+  display: block;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-frases-chave {
+  width: 100%;
+  display: block;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: lightslategrey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Estilos para o texto das frases-chave */
+.frases-chave {
+  text-align: center;
+  font-size: 2em;
+}
+
+/* Estilos para o botão do WhatsApp */
+.button-whats {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-whats button {
+  display: flexbox;
+  background-color: #128C7E;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.button-whats button:hover {
+  background-color: #25D366;
+}
+
+/* Media query para dispositivos menores, como celulares */
+@media screen and (max-width: 768px) {
+  .titulos {
+    font-size: 1em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .card-container {
+    display: block;
+  }
+
+  .frases-chave {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .container-frases-chave {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  /* Outras alterações específicas para telas menores */
+}

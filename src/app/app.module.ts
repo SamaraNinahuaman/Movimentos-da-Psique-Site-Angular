@@ -10,11 +10,11 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardBlogComponent } from './components/card-blog/card-blog.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { LogoTextWhiteComponent } from './components/logo-text-white/logo-text-white.component';
-import { LogoFullWhiteComponent } from './components/logo-full-white/logo-full-white.component';
+import { LogoFullWhiteComponent } from './assets/svgs/logo-full-white/logo-full-white.component';
 import { ModalidadesComponent } from './pages/modalidades/modalidades.component';
 import { PsicoterapiaComponent } from './pages/psicoterapia/psicoterapia.component';
 import { SomaticExperiencingComponent } from './pages/somatic-experiencing/somatic-experiencing.component';
+import { CardModalidadesComponent } from './components/card-modalidades/card-modalidades.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +26,11 @@ import { SomaticExperiencingComponent } from './pages/somatic-experiencing/somat
     FooterComponent,
     CardBlogComponent,
     MenuComponent,
-    LogoTextWhiteComponent,
     LogoFullWhiteComponent,
     ModalidadesComponent,
     PsicoterapiaComponent,
     SomaticExperiencingComponent,
+    CardModalidadesComponent,
 
   ],
   imports: [
