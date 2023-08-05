@@ -12,6 +12,5 @@
 
 @font-face {
   font-family: "Goudy Old Style"; /* Defina o nome da fonte que será utilizada */
-  src: url("../../assets/fonts/Goudy_Old_Style.ttf"); /* Caminho para o arquivo da fonte */
+  src: url("/src/app/assets/fonts/Goudy_Old_Style.ttf"); /* Caminho para o arquivo da fonte */
 }
-

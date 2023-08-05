@@ -4,7 +4,7 @@
   --primary-color-soft:rgb(200, 92, 142);
   --submmit-color: rgb(21, 206, 89);
   --darker-submmit-color: rgb(10, 99, 43);
-  font-size: 62.5%;
+  font-size: 45%;
 }
 
 * {
@@ -14,9 +14,8 @@
 }
 
 body {
-  background: var(--primary-color);
   font-size: 1em;
-  line-height: 2.6em;
+  line-height: 2em;
 }
 
 h1, h2, h3{

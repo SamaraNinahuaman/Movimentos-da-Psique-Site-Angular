@@ -14,7 +14,11 @@ import { LogoFullWhiteComponent } from './assets/svgs/logo-full-white/logo-full-
 import { ModalidadesComponent } from './pages/modalidades/modalidades.component';
 import { PsicoterapiaComponent } from './pages/psicoterapia/psicoterapia.component';
 import { SomaticExperiencingComponent } from './pages/somatic-experiencing/somatic-experiencing.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
 import { CardModalidadesComponent } from './components/card-modalidades/card-modalidades.component';
+import { CardModalidades2Component } from './components/card-modalidades2/card-modalidades2.component';
+
 
 @NgModule({
   declarations: [
@@ -31,11 +35,14 @@ import { CardModalidadesComponent } from './components/card-modalidades/card-mod
     PsicoterapiaComponent,
     SomaticExperiencingComponent,
     CardModalidadesComponent,
+    CardModalidades2Component,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

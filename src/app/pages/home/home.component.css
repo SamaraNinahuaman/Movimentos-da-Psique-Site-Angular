@@ -87,6 +87,14 @@ h1, h2, h3 {
   background-color: #25D366;
 }
 
+.imagem {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../../assets/borboletahome.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 /* Media query para dispositivos menores, como celulares */
 @media screen and (max-width: 768px) {
   body {
@@ -112,6 +120,11 @@ h1, h2, h3 {
   .frases-chave {
     text-align: center;
     font-size: 1.5em;
+  }
+
+  .imagem {
+    width: 100%;
+    height: 250px;
   }
   /* Outras alterações específicas para telas menores */
 }
