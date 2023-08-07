@@ -80,15 +80,23 @@ header {
 
 /* Media query para telas menores, como celulares */
 @media (max-width: 1090px) {
+  .main a {
+    font-size: 0.8em;
+    margin-right: 5px;
+    margin-left: 0px;
+}
   .logo {
-    padding-top: 15px;
-    width: 200px; /* Reduza o tamanho do logo para telas menores */
+    padding-top: 8px;
+    width: 150px; /* Reduza o tamanho do logo para telas menores */
   }
 
   .menubar a {
     font-size: 1.3em; /* Reduza a proporção das letras dentro do menu hamburguer */
   }
 
+  .user i {
+    font-size: 15px;
+  }
   header {
     padding: 14px 2%;
     transition: .2s;

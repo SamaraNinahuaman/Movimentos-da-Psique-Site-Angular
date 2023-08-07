@@ -32,7 +32,7 @@ h2 {
 .sobre, .publico-alvo, .abordagem, .tecnicas-corporais {
   width: 50%;
   padding: 60px;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 .container-frases-chave {
@@ -40,7 +40,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightslategrey;
+  background-color: #778899;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -90,7 +90,7 @@ h2 {
 
   .frases-chave {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 
   .container-frases-chave {

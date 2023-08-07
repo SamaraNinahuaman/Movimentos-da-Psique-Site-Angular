@@ -35,4 +35,9 @@ body {
   height: 45vh;
 }
 
+h2 {
+  font-size: 1.7em;
+  text-align: center;
+  padding-top: 50px;
+}
 }

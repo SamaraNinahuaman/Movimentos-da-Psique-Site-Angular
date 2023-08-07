@@ -1,6 +1,7 @@
 
 .card {
-  width: 80%;
+  width: 450px;
+  height: 300px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
@@ -8,6 +9,7 @@
   margin: 30px;
   transition: transform 0.2s ease;
   align-items: center;
+  justify-content: center;
 }
 
 /* Adicione um efeito de elevação ao passar o mouse */
@@ -26,7 +28,6 @@
   font-size: 1.5rem;
   text-align: center;
 }
-
 
 .button-whats {
   text-align: center;
@@ -49,6 +50,7 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   .card {
-    width: 90%;
+    width: 330px;
+    height: 300px;
   }
 }

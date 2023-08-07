@@ -7,7 +7,6 @@ body {
   line-height: 2.6em;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
  /* Define a altura total da página */
 }
 
@@ -25,9 +24,10 @@ h2 {
 .card-container {
   flex: 1; /* Os elementos ocuparão o espaço disponível verticalmente */
   display: flex;
-  justify-content: space-between;
   text-align: justify;
   height: 700px;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-frases-chave {
@@ -75,6 +75,15 @@ h2 {
   background-color: #25D366;
 }
 
+.content-card-psico {
+  align-items: center;
+  justify-content: center;
+}
+
+.content-card-se {
+  align-items: center;
+  justify-content: center;
+}
 /* Media query para dispositivos menores, como celulares */
 @media screen and (max-width: 768px) {
   .titulos {

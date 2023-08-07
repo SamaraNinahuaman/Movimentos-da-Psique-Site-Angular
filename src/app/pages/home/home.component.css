@@ -99,6 +99,12 @@ h1, h2, h3 {
 @media screen and (max-width: 768px) {
   body {
     font-size: 1em; /* Reduza o tamanho da fonte para telas menores */
+
+  }
+
+  .titulos {
+    font-size: 1.5em;
+    padding-bottom: 10px;
   }
 
   .container {
@@ -116,6 +122,7 @@ h1, h2, h3 {
   .apresentacao-home {
     width: 100%; /* A apresentação ocupará 100% da largura do container em telas menores */
     text-align: center;
+    font-size: 1.4em;
   }
   .frases-chave {
     text-align: center;

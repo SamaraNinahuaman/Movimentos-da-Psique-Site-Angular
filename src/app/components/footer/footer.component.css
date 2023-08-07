@@ -7,7 +7,6 @@
   padding: 20px; /* Adapte o padding conforme necessário */
 }
 
-
 .icons-box img {
   margin: 5px;
   padding-right: 20px;
@@ -46,11 +45,11 @@ i{
   .icons-box img {
     margin: 3px;
     padding-right: 5px;
-    width: 50px;
+    width: 30px;
   }
-
 
   .footer {
     padding: 10px;
+    font-size: 0.8em;
   }
 }
