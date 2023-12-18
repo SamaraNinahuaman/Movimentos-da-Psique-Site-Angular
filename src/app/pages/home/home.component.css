@@ -69,7 +69,8 @@ h1, h2, h3 {
 /* Estilos para o botão do WhatsApp */
 .button-whats {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
+  margin-bottom: 30px;
 }
 
 .button-whats button {

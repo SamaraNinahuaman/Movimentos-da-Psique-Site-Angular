@@ -23,6 +23,8 @@ import { Card1Component } from './components/cards/cards-blog/card1/card1.compon
 import { Card2Component } from './components/cards/cards-blog/card2/card2.component';
 import { Card3Component } from './components/cards/cards-blog/card3/card3.component';
 import { Article3Component } from './pages/blog-articles/article3/article3.component';
+import { RegisterUserComponent } from './pages/register-user/register-user.component';
+import { LoginComponent } from './pages/login/login.component';
 
 
 @NgModule({
@@ -46,6 +48,8 @@ import { Article3Component } from './pages/blog-articles/article3/article3.compo
     Card2Component,
     Card3Component,
     Article3Component,
+    RegisterUserComponent,
+    LoginComponent,
 
   ],
   imports: [

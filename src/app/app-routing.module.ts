@@ -9,6 +9,8 @@ import { SomaticExperiencingComponent } from './pages/somatic-experiencing/somat
 import { Article1Component } from './pages/blog-articles/article1/article1.component';
 import { Article2Component } from './pages/blog-articles/article2/article2.component';
 import { Article3Component } from './pages/blog-articles/article3/article3.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterUserComponent } from './pages/register-user/register-user.component';
 
 
 const routes: Routes = [
@@ -44,7 +46,14 @@ const routes: Routes = [
     path: 'article3',
     component: Article3Component
   },
-
+  {
+    path: 'app-login',
+    component: LoginComponent
+  },
+  {
+    path: 'app-register-user',
+    component: RegisterUserComponent
+  },
 
 ];
 

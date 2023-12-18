@@ -1,0 +1,203 @@
+:root {
+  --primary-color: rgb(157, 60, 114);
+  --secondary-color: rgb(255, 208, 0);
+  --primary-color-soft: rgb(200, 92, 142);
+  --submmit-color: rgb(21, 206, 89);
+  --darker-submmit-color: rgb(10, 99, 43);
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: "Goudy Od Style", sans-serif;
+  font-size: 1rem;
+  line-height: 2.6rem;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2
+ {
+  font-size: 1.8rem;
+
+ }
+ h3
+ {
+  font-size: 1.5rem;
+ }
+ h4
+ {
+  font-size: 1.3rem;
+  padding-bottom: 10px;
+ }
+
+.container {
+  display: block;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.titulos {
+  font-size: 2em;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+/* Estilos para a conteudo do artigo */
+.content {
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 100%;
+  text-indent: 50px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+div.initial-letter {
+  font-size: 1.5rem;
+  text-align: justify;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+div:first-of-type::first-letter {
+  font-size: 5rem;
+  float: left;
+  margin-right: 15px;
+  line-height: 1;
+}
+
+.texto-destaque {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Estilizar os itens da lista */
+li {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  font-size: 1.5rem;
+  }
+
+/* Adicionar marcador personalizado nas listas não ordenadas */
+ul li::before {
+  content: "\2022"; /* Código do marcador: bullet point */
+  position: absolute;
+  left: 0;
+}
+
+/* Estilos para a caixa de frases-chave */
+/* Estilos para o contêiner das frases-chave */
+.container-frases-chave {
+  display: block;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-color: lightslategrey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Estilos para o texto das frases-chave */
+.frases-chave {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Estilos para o botão do WhatsApp */
+.button-whats {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-whats button {
+  display: flexbox;
+  background-color: #128C7E;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.button-whats button:hover {
+  background-color: #25D366;
+}
+
+.container img {
+  width: 450px;
+  margin-right: 40px;
+  border-radius: 75px;
+}
+
+.imagem {
+  width: 100%;
+  height: 500px;
+  background-image: url('../../../../assets/resiliencia-covid-19.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Media query para dispositivos menores, como celulares */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1rem; /* Reduza o tamanho da fonte para telas menores */
+
+  }
+
+  .titulos {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+  }
+
+  .container {
+    padding: 20px; /* Reduza o padding para telas menores */
+    flex-direction: column; /* Altere a direção do flex container para ficar em coluna */
+  }
+
+  .container img {
+    width: 75%; /* A imagem ocupará 100% da largura do container em telas menores */
+    max-width: none; /* Remova a largura máxima da imagem em telas menores */
+    margin-right: 0; /* Remova o espaço entre a imagem e o texto em telas menores */
+    margin-bottom: 20px; /* Adiciona um espaço após a imagem */
+  }
+
+  .content {
+    width: 100%; /* A apresentação ocupará 100% da largura do container em telas menores */
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .frases-chave {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .imagem {
+    width: 100%;
+    height: 250px;
+  }
+
+  p:first-of-type::first-letter {
+    font-size: 2.5rem;
+    margin-right: 10px;
+  }
+  /* Outras alterações específicas para telas menores */
+}

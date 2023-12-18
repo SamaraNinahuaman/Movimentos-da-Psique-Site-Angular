@@ -12,27 +12,27 @@ body {
   padding: 0;
   background: var(--primary-color);
   font-family: "Goudy Od Style", sans-serif;
-  font-size: 1em;
-  line-height: 2.6em;
+  font-size: 1rem;
+  line-height: 2.6rem;
 }
 
 h1, h2, h3, h4 {
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h2
  {
-  font-size: 1.8em;
+  font-size: 1.8rem;
 
  }
  h3
  {
-  font-size: 1.5em;
+  font-size: 1.5rem;
  }
  h4
  {
-  font-size: 1.3em;
+  font-size: 1.3rem;
   padding-bottom: 10px;
  }
 
@@ -50,17 +50,9 @@ h2
   padding-bottom: 30px;
 }
 
-/* Estilos para a imagem
-.container img {
-  width: 450px;
-  margin-right: 40px;
-  border-radius: 75px;
-}
-*/
-
 /* Estilos para a conteudo do artigo */
 .content {
-  font-size: 1.5em;
+  font-size: 1.5rem;
   text-align: justify;
   width: 100%;
   text-indent: 50px;
@@ -68,22 +60,22 @@ h2
   padding-top: 20px;
 }
 
-.initial-letter {
-  font-size: 1.5em;
+div.initial-letter {
+  font-size: 1.5rem;
   text-align: justify;
   width: 100%;
   margin-bottom: 40px;
 }
 
-p:first-of-type::first-letter {
-  font-size: 5em;
+div:first-of-type::first-letter {
+  font-size: 5rem;
   float: left;
   margin-right: 15px;
   line-height: 1;
 }
 
 .texto-destaque {
-  font-size: 2em;
+  font-size: 2rem;
   text-align: center;
   font-weight: 700;
   width: 100%;
@@ -101,7 +93,7 @@ li {
   padding-left: 20px;
   padding-bottom: 20px;
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   }
 
 /* Adicionar marcador personalizado nas listas não ordenadas */
@@ -125,7 +117,7 @@ ul li::before {
 /* Estilos para o texto das frases-chave */
 .frases-chave {
   text-align: center;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 /* Estilos para o botão do WhatsApp */
@@ -160,12 +152,12 @@ ul li::before {
 /* Media query para dispositivos menores, como celulares */
 @media screen and (max-width: 768px) {
   body {
-    font-size: 1em; /* Reduza o tamanho da fonte para telas menores */
+    font-size: 1rem; /* Reduza o tamanho da fonte para telas menores */
 
   }
 
   .titulos {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding-bottom: 10px;
   }
 
@@ -184,11 +176,12 @@ ul li::before {
   .content {
     width: 100%; /* A apresentação ocupará 100% da largura do container em telas menores */
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.4rem;
   }
+
   .frases-chave {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .imagem {
@@ -197,7 +190,7 @@ ul li::before {
   }
 
   p:first-of-type::first-letter {
-    font-size: 2.5em;
+    font-size: 2.5rem;
     margin-right: 10px;
   }
   /* Outras alterações específicas para telas menores */
