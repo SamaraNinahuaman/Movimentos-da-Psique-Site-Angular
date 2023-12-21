@@ -59,11 +59,11 @@ img {
 
 @media (max-width: 1280px) {
   .menulateral a {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
     i {
-  font-size: 20px;
-  margin-left: 5px;
+  font-size: 15px;
+  margin-left: 0;
     }
 }
 
