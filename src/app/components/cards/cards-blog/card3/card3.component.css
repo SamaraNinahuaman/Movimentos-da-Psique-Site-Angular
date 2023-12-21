@@ -10,7 +10,6 @@
   transition: transform 0.2s ease;
   align-items: center;
   justify-content: center;
-
 }
 
 /* Adicione um efeito de elevação ao passar o mouse */
@@ -54,6 +53,6 @@ button:hover {
 @media screen and (max-width: 768px) {
   .card {
     width: 330px;
-    height: 300px;
+    height: 550px;
   }
 }

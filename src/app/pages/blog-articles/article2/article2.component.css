@@ -181,7 +181,7 @@ ul li::before {
 
   .content {
     width: 100%; /* A apresentação ocupará 100% da largura do container em telas menores */
-    text-align: center;
+    text-align: justify;
     font-size: 1.4rem;
   }
 
@@ -195,9 +195,9 @@ ul li::before {
     height: 250px;
   }
 
-  p:first-of-type::first-letter {
+  div:first-of-type::first-letter {
     font-size: 2.5rem;
     margin-right: 10px;
   }
-  /* Outras alterações específicas para telas menores */
+
 }

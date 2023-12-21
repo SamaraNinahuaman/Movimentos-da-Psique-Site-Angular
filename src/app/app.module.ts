@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { BlogComponent } from './pages/blog/blog.component';
@@ -25,6 +28,8 @@ import { Card3Component } from './components/cards/cards-blog/card3/card3.compon
 import { Article3Component } from './pages/blog-articles/article3/article3.component';
 import { RegisterUserComponent } from './pages/register-user/register-user.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ArealogadaComponent } from './pages/arealogada/arealogada.component';
+import { MenuarealogadaComponent } from './components/menuarealogada/menuarealogada.component';
 
 
 @NgModule({
@@ -50,6 +55,9 @@ import { LoginComponent } from './pages/login/login.component';
     Article3Component,
     RegisterUserComponent,
     LoginComponent,
+    ArealogadaComponent,
+    MenuarealogadaComponent,
+
 
   ],
   imports: [
@@ -57,6 +65,8 @@ import { LoginComponent } from './pages/login/login.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

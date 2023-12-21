@@ -104,9 +104,10 @@ h1, h2, h3 {
   }
 
   .titulos {
-    font-size: 1.5em;
+    font-size: 1.1em;
     padding-bottom: 10px;
   }
+
 
   .container {
     padding: 20px; /* Reduza o padding para telas menores */

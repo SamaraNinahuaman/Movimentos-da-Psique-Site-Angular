@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: "Goudy Od Style", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ /* Define a altura total da página */
+}
+
+.card {
+  width: 450px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+  padding: 30px;
+  margin: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card .titulos {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+}
+
+.card .content {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 20px;
+}
+
+label {
+  font-size: 1.3rem;
+  padding: 15px;
+}
+
+input {
+  width: 60%;
+}
+
+button {
+  display: flexbox;
+  background-color: #128C7E;
+  color: #FFF;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+button:hover {
+  background-color: #25D366;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+
+  label {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  button {
+    display: flexbox;
+    background-color: #128C7E;
+    color: #FFF;
+    border: none;
+    padding: 5px 10;
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .card .content {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+}

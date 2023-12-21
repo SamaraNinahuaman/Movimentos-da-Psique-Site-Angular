@@ -7,19 +7,18 @@ body {
 header {
   position: fixed;
   width: 100%;
-  top: 0;
-  right: 0;
   z-index: 1000;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: black;
-  padding: 10px 1%;
+  padding-top: 10px;
   transition: all .50s ease;
 }
 
-.logo {
-  width: 225px; /* Tamanho do logo para telas maiores */
+.logo img{
+  padding-top: 8px;
+  width: 280px;
 }
 
 .menubar {
@@ -50,7 +49,7 @@ header {
   margin-right: 3px;
   margin-left: 5px;
   color: white;
-  font-size: 1.1em;
+  font-size: 1.6em;
   font-weight: 500;
   transition: all .50 ease;
 }
@@ -78,16 +77,16 @@ header {
   display: none;
 }
 
-/* Media query para telas menores, como celulares */
-@media (max-width: 1090px) {
+
+@media (max-width: 768px) {
   .main a {
     font-size: 0.8em;
     margin-right: 5px;
     margin-left: 0px;
 }
-  .logo {
+  .logo img {
     padding-top: 8px;
-    width: 150px; /* Reduza o tamanho do logo para telas menores */
+    width: 180px; /* Reduza o tamanho do logo para telas menores */
   }
 
   .menubar a {

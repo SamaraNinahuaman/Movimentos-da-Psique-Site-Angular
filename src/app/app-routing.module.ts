@@ -11,6 +11,7 @@ import { Article2Component } from './pages/blog-articles/article2/article2.compo
 import { Article3Component } from './pages/blog-articles/article3/article3.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterUserComponent } from './pages/register-user/register-user.component';
+import { ArealogadaComponent } from './pages/arealogada/arealogada.component';
 
 
 const routes: Routes = [
@@ -54,6 +55,11 @@ const routes: Routes = [
     path: 'app-register-user',
     component: RegisterUserComponent
   },
+  {
+    path: 'app-arealogada',
+    component: ArealogadaComponent
+  },
+
 
 ];
 

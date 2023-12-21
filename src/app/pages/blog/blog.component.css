@@ -74,12 +74,17 @@ h2 {
   background-color: #25D366;
 }
 
-.content-card-psico {
+.content-card1 {
   align-items: center;
   justify-content: center;
 }
 
-.content-card-se {
+.content-card2 {
+  align-items: center;
+  justify-content: center;
+}
+
+.content-card3 {
   align-items: center;
   justify-content: center;
 }

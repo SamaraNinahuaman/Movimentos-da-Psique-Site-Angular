@@ -1,1 +1,28 @@
-<p>login works!</p>
+
+<body>
+  <div>
+    <mat-card class="card">
+      <mat-card-header class="titulos">
+        Acesso Restrito
+      </mat-card-header>
+      <form action="" method="POST">
+        <p>
+          <label>E-mail:</label>
+          <input type="email" name="email">
+        </p>
+        <p>
+          <label>Senha:</label>
+          <input type="password" name="senha">
+        </p>
+      </form>
+      <mat-card-actions>
+
+        <button mat-button type="submit"><a routerLink="/app-arealogada" routerLinkActive="active">Acessar</a></button>
+      </mat-card-actions>
+
+      <mat-card-content class="content">
+        Para acessar a área restrita é necessário se cadastrar no sistema. <a routerLink="/app-register-user" routerLinkActive=active>Clique aqui!</a>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</body>

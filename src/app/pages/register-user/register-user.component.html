@@ -1,1 +1,28 @@
-<p>register-user works!</p>
+
+<body>
+  <div>
+    <mat-card class="card">
+      <mat-card-header class="titulos">
+        Novo Cadastro
+      </mat-card-header>
+      <form action="" method="POST">
+        <p>
+          <label>E-mail:</label>
+          <input #emailUser type="email" name="email">
+        </p>
+        <p>
+          <label>Senha:</label>
+          <input #senhaUser type="password" name="senha">
+          <!-- <mat-icon-button (click)="togglePasswordVisibility()">visibility</mat-icon-button> -->
+        </p>
+        <p>          <label>Confirmar Senha:</label>
+          <input #confirmSenha type="password" name="confirmarSenha">
+          <!-- <mat-icon-button (click)="toggleConfirmPasswordVisibility()">visibility</mat-icon-button> -->
+        </p>
+      </form>
+      <mat-card-actions>
+        <button (click)="imprimir()" mat-button type="submit">Cadastrar</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</body>
